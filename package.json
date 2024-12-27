@@ -1,0 +1,15 @@
+{
+  "name" : "com.whiteroom.utilities",
+  "version" : "1.0.0",
+  "displayName" : "Utilities",
+  "description" : "A comprehensive library containing many tools.",
+  "unity" : "6000.0",
+  "author" : {
+    "name" : "White Room",
+    "url" : "https://ibrahimalbayrak.blog/"
+  },
+  "dependencies": {
+    "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
+    "com.browar.editor-toolbox": "https://github.com/arimger/Unity-Editor-Toolbox.git#upm"
+  }
+}
