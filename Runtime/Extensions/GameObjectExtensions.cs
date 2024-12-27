@@ -34,7 +34,7 @@ namespace Utilities.Runtime
         /// <param name="gameObject">The game object whose root to search in.</param>
         /// <typeparam name="T">The type of component to retrieve</typeparam>
         /// <returns>A component of type T found in the root of the hierarchy, or null if none is found.</returns>
-        public static T GetComponentInRoot<T>(this GameObject gameObject) where T : Component
+        public static T GetComponentInRoot<T>(this GameObject gameObject)
         {
             return gameObject.transform.root.GetComponentInChildren<T>();
         }
